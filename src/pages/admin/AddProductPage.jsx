@@ -163,7 +163,7 @@ const AddProductPage = () => {
                 const { name } = value;
                 return (
                   <option
-                    className=" first-letter:uppercase"
+                    className="first-letter:uppercase"
                     key={index}
                     value={name}
                   >

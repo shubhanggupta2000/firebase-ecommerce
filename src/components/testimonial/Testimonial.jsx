@@ -12,8 +12,7 @@ const Testimonial = () => {
           </h1>
           {/* para  */}
           <h2 className=" text-center text-2xl font-semibold mb-10">
-            What our <span className=" text-pink-500">customers</span> are
-            saying
+            What our <span className=" text-pink-500">customers</span> think
           </h2>
 
           <div className="flex flex-wrap -m-4">
@@ -23,17 +22,19 @@ const Testimonial = () => {
                 <img
                   alt="testimonial"
                   className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-                  src="https://ecommerce-sk.vercel.app/img/kamal.png"
+                  src="https://cdn-icons-png.flaticon.com/128/2202/2202112.png"
                 />
                 <p className="leading-relaxed">
-                  Edison bulb retro cloud bread echo park, helvetica stumptown
-                  taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee
-                  ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut
-                  adaptogen squid fanny pack vaporware.
+                  E-Bharat has been a game-changer! Their wide selection, from
+                  handcrafted jewelry to organic spices, allows me to support
+                  local artisans while discovering beautiful pieces for my home.
+                  Plus, the convenient online ordering and fast delivery make it
+                  a breeze. E-Bharat is my go-to platform for all things 'Made
+                  in India'!
                 </p>
                 <span className="inline-block h-1 w-10 rounded bg-pink-500 mt-6 mb-4" />
                 <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm uppercase">
-                  Kamal Nayan Upadhyay
+                  123
                 </h2>
                 <p className="text-gray-500">Senior Product Designer</p>
               </div>
@@ -48,14 +49,15 @@ const Testimonial = () => {
                   src="https://www.devknus.com/img/gawri.png"
                 />
                 <p className="leading-relaxed">
-                  Edison bulb retro cloud bread echo park, helvetica stumptown
-                  taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee
-                  ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut
-                  adaptogen squid fanny pack vaporware.
+                  E-Bharat provides a fantastic platform for these businesses to
+                  reach a wider audience. I love browsing the app and
+                  discovering new handcrafted products, knowing that my purchase
+                  directly empowers local artisans. The secure payment options
+                  and hassle-free returns give me complete peace of mind.
                 </p>
                 <span className="inline-block h-1 w-10 rounded bg-pink-500 mt-6 mb-4" />
                 <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm uppercase">
-                  S Mishra
+                  XYZ
                 </h2>
                 <p className="text-gray-500">UI Develeoper</p>
               </div>
@@ -67,17 +69,18 @@ const Testimonial = () => {
                 <img
                   alt="testimonial"
                   className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-                  src="https://firebasestorage.googleapis.com/v0/b/devknus-official-database.appspot.com/o/images%2FScreenshot%202023-07-07%20at%202.20.32%20PM-modified.png?alt=media&token=324ddd80-2b40-422c-9f1c-1c1fa34943fa"
+                  src="https://cdn-icons-png.flaticon.com/128/2202/2202112.png"
                 />
                 <p className="leading-relaxed">
-                  Edison bulb retro cloud bread echo park, helvetica stumptown
-                  taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee
-                  ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut
-                  adaptogen squid fanny pack vaporware.
+                  The app curates a diverse collection of products that reflect
+                  the rich tapestry of Indian art and design. From traditional
+                  textiles to contemporary homeware, each piece tells a story.
+                  E-Bharat has become my source for meaningful keepsakes that
+                  celebrate the beauty of Indian craftsmanship.
                 </p>
                 <span className="inline-block h-1 w-10 rounded bg-pink-500 mt-6 mb-4" />
                 <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm uppercase">
-                  XYZ{" "}
+                  Shubhang Gupta{" "}
                 </h2>
                 <p className="text-gray-500">CTO</p>
               </div>
