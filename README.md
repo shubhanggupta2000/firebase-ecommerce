@@ -14,3 +14,5 @@ Currently, two official plugins are available:
 
 ## Glimpse
 
+![1](https://github.com/shubhanggupta2000/firebase-ecommerce/assets/79959361/6359ce33-e71b-40e6-9c25-80b611c08a10)
+![2](https://github.com/shubhanggupta2000/firebase-ecommerce/assets/79959361/40267926-bc36-4a57-9c74-7a04df33ae1c)
