@@ -9,9 +9,6 @@ import toast from "react-hot-toast";
 const ProductDetail = () => {
   const context = useContext(myContext);
   const { loading, setLoading, getAllProduct, getAllProductFunction } = context;
-  // console.log(getAllProduct)
-
-  // navigate
   const navigate = useNavigate();
 
   // Delete product

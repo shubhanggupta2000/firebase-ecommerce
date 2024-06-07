@@ -62,8 +62,8 @@ const UpdateProductPage = () => {
     setLoading(true);
     try {
       const productTemp = await getDoc(doc(fireDB, "products", id));
-      //   console.log(product.data())
       const product = productTemp.data();
+      
       setProduct({
         title: product?.title,
         price: product?.price,

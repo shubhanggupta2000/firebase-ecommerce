@@ -4,7 +4,7 @@ import myContext from "../../context/myContext";
 const OrderDetail = () => {
   const context = useContext(myContext);
   const { getAllOrder, deleteProduct } = context;
-  // console.log(getAllOrder)
+
   return (
     <div>
       <div>
@@ -132,6 +132,7 @@ const OrderDetail = () => {
               </tr>
               {getAllOrder.map((order) => {
                 console.log(order);
+                
                 return (
                   <>
                     {order.cartItems.map((item, index) => {

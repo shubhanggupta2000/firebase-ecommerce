@@ -13,7 +13,7 @@ const Footer = () => {
           </a>
           {/* para  */}
           <p className="text-sm text-gray-100 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
-            © 2024 ebharat —
+            © 2024 E-Bharat —
             <Link
               to={"/"}
               className="text-gray-100 ml-1"
