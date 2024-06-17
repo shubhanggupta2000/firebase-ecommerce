@@ -5,10 +5,8 @@ import { useNavigate } from "react-router";
 const SearchBar = () => {
   const context = useContext(myContext);
   const { getAllProduct } = context;
-  // Search State
   const [search, setSearch] = useState("");
 
-  // Filter Search Data
   const filterSearchData = getAllProduct
     .filter((obj) => obj.title.toLowerCase().includes(search))
     .slice(0, 8);
@@ -17,7 +15,6 @@ const SearchBar = () => {
 
   return (
     <div className="">
-      {/* search input  */}
       <div className="input flex justify-center">
         <input
           type="text"
@@ -27,7 +24,6 @@ const SearchBar = () => {
         />
       </div>
 
-      {/* search drop-down  */}
       <div className=" flex justify-center">
         {search && (
           <div className="block absolute bg-gray-200 w-96 md:w-96 lg:w-96 z-50 my-1 rounded-lg px-2 py-2">

@@ -24,13 +24,11 @@ const ProductDetail = () => {
       setLoading(false);
     }
   };
-  
+
   return (
     <div>
       <div className="py-5 flex justify-between items-center">
-        {/* text  */}
         <h1 className=" text-xl text-pink-300 font-bold">All Product</h1>
-        {/* Add Product Button  */}
         <Link to={"/addproduct"}>
           <button className="px-5 py-2 bg-pink-50 border border-pink-100 rounded-lg">
             Add Product
@@ -38,12 +36,10 @@ const ProductDetail = () => {
         </Link>
       </div>
 
-      {/* Loading  */}
       <div className="flex justify-center relative top-20">
         {loading && <Loader />}
       </div>
 
-      {/* table  */}
       <div className="w-full overflow-x-auto mb-5">
         <table className="w-full text-left border border-collapse sm:border-separate border-pink-100 text-pink-400">
           <tbody>

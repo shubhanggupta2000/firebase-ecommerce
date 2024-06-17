@@ -22,7 +22,6 @@ const CategoryPage = () => {
   const dispatch = useDispatch();
 
   const addCart = (item) => {
-    // console.log(item)
     dispatch(addToCart(item));
     toast.success("Added to cart");
   };
@@ -32,22 +31,18 @@ const CategoryPage = () => {
     toast.success("Removed from cart");
   };
 
-  // console.log(cartItems)
-
   useEffect(() => {
     localStorage.setItem("cart", JSON.stringify(cartItems));
   }, [cartItems]);
   return (
     <Layout>
       <div className="mt-10">
-        {/* Heading  */}
         <div className="">
           <h1 className=" text-center mb-5 text-2xl font-semibold first-letter:uppercase">
             {categoryname}
           </h1>
         </div>
 
-        {/* main  */}
         {loading ? (
           <>
             <div className="flex justify-center">

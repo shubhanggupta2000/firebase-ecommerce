@@ -7,11 +7,6 @@ An Indigeneous E-commerce website which features and sells products which are pu
 * Contains User dashboard where user can review past orders manipulate, edit or change them.
 * Firebase integration for backend assists easy database management and backend operations.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
 ## Glimpse
 
 ![1](https://github.com/shubhanggupta2000/firebase-ecommerce/assets/79959361/6359ce33-e71b-40e6-9c25-80b611c08a10)

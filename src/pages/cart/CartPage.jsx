@@ -30,8 +30,6 @@ const CartPage = () => {
     dispatch(decrementQuantity(id));
   };
 
-  // const cartQuantity = cartItems.length;
-
   const cartItemTotal = cartItems
     .map((item) => item.quantity)
     .reduce((prevValue, currValue) => prevValue + currValue, 0);
@@ -44,10 +42,8 @@ const CartPage = () => {
     localStorage.setItem("cart", JSON.stringify(cartItems));
   }, [cartItems]);
 
-  // user
   const user = JSON.parse(localStorage.getItem("users"));
 
-  // Buy Now Function
   const [addressInfo, setAddressInfo] = useState({
     name: "",
     address: "",
@@ -62,7 +58,6 @@ const CartPage = () => {
   });
 
   const buyNowFunction = () => {
-    // validation
     if (
       addressInfo.name === "" ||
       addressInfo.address === "" ||
@@ -72,7 +67,6 @@ const CartPage = () => {
       return toast.error("All Fields are required");
     }
 
-    // Order Info
     const orderInfo = {
       cartItems,
       addressInfo,
